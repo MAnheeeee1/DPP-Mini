@@ -3,7 +3,8 @@ import Header from "@/app/component/header";
 import DppLayout from "@/app/component/dppLayout";
 import ProductImage from "@/app/component/productImage";
 import ThreeKeyFacts from "@/app/component/threeKeyFacts";
-import PopDownInfo from "@/app/component/popDownInfo";
+import DropdownModule from "./component/popDownInfo";
+import MinimalFooter from "./component/minimalFooter";
 export default function Home() {
   const listofFacts = [
     { keyFact: "12km", value: "Sträcka" },
@@ -23,9 +24,8 @@ export default function Home() {
             position={"center"}
           />
           <ThreeKeyFacts listofFacts={listofFacts} />
-          <PopDownInfo title="Hållbarhet" info="Tjöjan är hållbart" />
-          <PopDownInfo title="Kvalitet" info="Tjöjan är kvalitetsrik" />
-          <PopDownInfo title="Pris" info="Tjöjan är billig" />
+          <DropdownModule />
+          <MinimalFooter />
         </DppLayout>
       </div>
     </div>
