@@ -17,7 +17,8 @@
     "nodemon": "^3.1.11",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.4.0",
+    "vercel": "^50.9.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
