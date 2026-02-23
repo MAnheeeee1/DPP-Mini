@@ -10,27 +10,97 @@ const DropdownModule = () => {
     {
       title: "Reparation, underhåll och återbruk",
       content:
-        "This product has been transported through several stages of the supply chain — from raw material sourcing to manufacturing and final delivery. Each step adds to the total distance traveled.",
+        'Jackan är konstruerad med standardkomponenter som YKK‑dragkedjor, tryckknappar och utbytbara snoddar, vilket gör den lätt att reparera hos skräddare eller via 8848:s service.\n\nRätt tvätt, återaktivering av impregnering och punktlagningar förlänger livslängden, och 8848 erbjuder råd och reservdelar under "Care & Repair".\n\nDen tåliga konstruktionen gör plagget väl lämpat för återbruk genom andrahandsförsäljning eller vidare utlån när du själv är klar med det.',
+      links: [
+        {
+          label: "Care & Repair (SV)",
+          url: "https://www.8848altitude.com/sv-SE/8848-altitude/hallbarhet/care-and-repair",
+        },
+        {
+          label: "Care & Repair (ENG)",
+          url: "https://www.8848altitude.com/en/8848-altitude/sustainability/care-and-repair",
+        },
+      ],
     },
     {
-      title: "Material och tillverkning:",
+      title: "Material och tillverkning",
       content:
-        "Transport contributes significantly to carbon emissions. Understanding the journey of products helps consumers make more environmentally conscious choices.",
+        "Plagget består främst av polyester i skal, foder och isolering, med inslag av nylon, elastan, polyuretan och polypropen i detaljer som band, tejp, knappar och stoppare.\n\nNågra material är återvunnen polyester, och en isolering innehåller Sorona‑fibrer och solution‑dyed foder som minskar vatten-, kemi- och energianvändning jämfört med traditionell infärgning.\n\nTotalt väger material och komponenter cirka 1,26 kg per plagg, varav större delen i isolering och fodertyger.\n\n8848 följer REACH och använder PFAS‑fria impregneringar för att undvika persistenta fluorkarboner i sina plagg.",
+      links: [
+        {
+          label: "Fabrics and Materials",
+          url: "https://www.8848altitude.com/en/8848-altitude/sustainability/fabrics-and-materials",
+        },
+        {
+          label: "Material Guide",
+          url: "https://www.8848altitude.com/eu/material-guide",
+        },
+        {
+          label: "Hållbarhetsarbete (SV)",
+          url: "https://www.8848altitude.com/sv-SE/8848-altitude/hallbarhet/sustainability-work",
+        },
+        {
+          label: "Sustainability Work (ENG)",
+          url: "https://www.8848altitude.com/en-EU/8848-altitude/sustainability/sustainability-work",
+        },
+      ],
     },
     {
       title: "Potential för återvinning",
       content:
-        "Modern supply chains often span multiple countries and continents, involving raw material extraction, processing, manufacturing, warehousing, and distribution before reaching the end consumer.",
+        "Jackan är starkt dominerad av polyester, vilket ger god teknisk potential för materialåtervinning i framtida polyesterflöden.\n\nFör att återvinna krävs demontering av dragkedjor, knappar och hårda plastdetaljer, men efter sortering kan en stor del av textilen bli råvara till nya fibrer eller produkter.\n\nI dag går många liknande plagg fortfarande till energiåtervinning, men utvecklingen av textilåtervinning gör att denna typ av konstruktion är relativt gynnsam.",
+      links: [
+        {
+          label: "Fabrics and Materials",
+          url: "https://www.8848altitude.com/en/8848-altitude/sustainability/fabrics-and-materials",
+        },
+        {
+          label: "Hållbarhet (SV)",
+          url: "https://www.8848altitude.com/sv-SE/8848-altitude/hallbarhet",
+        },
+        {
+          label: "Sustainability Work",
+          url: "https://www.8848altitude.com/en-EU/8848-altitude/sustainability/sustainability-work",
+        },
+      ],
     },
     {
       title: "Miljöpåverkan",
       content:
-        "Modern supply chains often span multiple countries and continents, involving raw material extraction, processing, manufacturing, warehousing, and distribution before reaching the end consumer.",
+        "Den dokumenterade transportpåverkan från båtfrakten Dalian–Göteborg är 0,17 kg CO₂ per plagg, tack vare att 8848 prioriterar sjötransport framför flyg.\n\nStörsta delen av plaggets totala klimatpåverkan kommer dock från produktion av fiber och tyg, särskilt de syntetiska isolerings‑ och fodermaterialen.\n\nGenom att använda jackan länge, tvätta skonsamt och reparera istället för att byta ut den kan du kraftigt minska dess klimatpåverkan per användningstillfälle.",
+      links: [
+        {
+          label: "Transports and Packaging",
+          url: "https://www.8848altitude.com/en/8848-altitude/sustainability/transports-and-packaging",
+        },
+        {
+          label: "Sustainability Overview",
+          url: "https://www.8848altitude.com/en/8848-altitude/sustainability",
+        },
+        {
+          label: "Sustainability Work",
+          url: "https://www.8848altitude.com/en-EU/8848-altitude/sustainability/sustainability-work",
+        },
+      ],
     },
     {
-      title: "Socialt Ansvar",
+      title: "Socialt ansvar",
       content:
-        "Modern supply chains often span multiple countries and continents, involving raw material extraction, processing, manufacturing, warehousing, and distribution before reaching the end consumer.",
+        "Plagget är tillverkat i Kina hos leverantörer som 8848 arbetar med långsiktigt, med krav på uppförandekod, tredjepartsrevisioner och efterlevnad av lokala lagar och internationella konventioner.\n\n8848 är medlem i BSCI/liknande initiativ och följer sina egna riktlinjer för arbetsvillkor, lön och arbetsmiljö i leverantörskedjan.\n\nFöretaget redovisar sitt hållbarhetsarbete öppet på sin webbplats och arbetar med löpande förbättringar inom både sociala och miljömässiga frågor.",
+      links: [
+        {
+          label: "Social Responsibility (ENG)",
+          url: "https://www.8848altitude.com/en/8848-altitude/sustainability/social-responsibility",
+        },
+        {
+          label: "Ansvarsfull produktion (SV)",
+          url: "https://www.8848altitude.com/sv-SE/8848-altitude/hallbarhet/responsible-production",
+        },
+        {
+          label: "Hållbarhetsarbete (SV)",
+          url: "https://www.8848altitude.com/sv-SE/8848-altitude/hallbarhet/sustainability-work",
+        },
+      ],
     },
   ];
 
@@ -54,12 +124,32 @@ const DropdownModule = () => {
 
           <div
             className={`bg-emerald-50 transition-all duration-300 ease-in-out overflow-hidden ${
-              activeIndex === index ? "max-h-96 py-6 px-6" : "max-h-0"
+              activeIndex === index ? "max-h-[600px] py-6 px-6" : "max-h-0"
             }`}
           >
-            <p className="text-gray-800 text-base leading-relaxed">
-              {item.content}
-            </p>
+            {item.content.split("\n\n").map((paragraph, i) => (
+              <p
+                key={i}
+                className="text-gray-800 text-base leading-relaxed mb-3"
+              >
+                {paragraph}
+              </p>
+            ))}
+            {item.links && item.links.length > 0 && (
+              <div className="mt-4 flex flex-wrap gap-2">
+                {item.links.map((link, i) => (
+                  <a
+                    key={i}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block text-sm text-emerald-800 underline hover:text-emerald-950"
+                  >
+                    {link.label} ↗
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       ))}
