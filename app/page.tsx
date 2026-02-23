@@ -6,11 +6,12 @@ import DropdownModule from "./component/popDownInfo";
 import MinimalFooter from "./component/minimalFooter";
 import MoreProductSection from "./component/moreProductSection";
 import NewCollection from "./component/newCollection";
+import Head from "next/head";
 export default function Home() {
   const listofFacts = [
-    { keyFact: "12km", value: "Sträcka" },
-    { keyFact: "120kg", value: "Co2" },
-    { keyFact: "67", value: "Delar" },
+    { keyFact: "8600mil", value: "Sträcka" },
+    { keyFact: "0.17kg", value: "Co2" },
+    { keyFact: "52", value: "Delar" },
   ];
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#FAF9F6]">

@@ -22,7 +22,7 @@ const ThreeKeyFacts = ({ listofFacts }: ThreeKeyFactsProps) => {
             <div key={index}>
               <h1
                 className={
-                  "text-center text-5xl text-green-800" +
+                  "text-center text-4xl text-green-800" +
                   " " +
                   knewwave.className
                 }
