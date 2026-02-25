@@ -20,12 +20,13 @@ export default function Home() {
           <Header size={"7xl"} title={"Cleo"} />
           <hr />
           <ProductImage
-            imageUrl={"/saga.png"}
+            imageUrl={"/jacka.png"}
             height={300}
             width={300}
             position={"center"}
           />
           <ThreeKeyFacts listofFacts={listofFacts} />
+
           <DropdownModule />
           <MoreProductSection />
           <NewCollection />

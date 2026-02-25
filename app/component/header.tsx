@@ -7,7 +7,7 @@ type HeaderProps = {
 };
 
 const Header = ({ title, size }: HeaderProps) => {
-  return <h1 className={"text-8xl mt-15"}>{title}</h1>;
+  return <h1 className={"text-8xl mt-15 md:text-center"}>{title}</h1>;
 };
 
 export default Header;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Knewave } from "next/font/google";
+import Image from "next/image";
 
 const knewwave = Knewave({ weight: "400" });
 type ThreeKeyFactsProps = {
@@ -11,10 +12,10 @@ interface Fact {
 }
 const ThreeKeyFacts = ({ listofFacts }: ThreeKeyFactsProps) => {
   return (
-    <div className="p-2">
+    <div className="p-2 max-w-sm">
       <div
         className={
-          "flex justify-center p-6 mx-2 items-center bg-[#E2E2E2] rounded-2xl"
+          "flex justify-center p-6  items-center bg-[#E2E2E2] rounded-2xl"
         }
       >
         <div className={"flex w-full justify-between "}>
@@ -29,7 +30,9 @@ const ThreeKeyFacts = ({ listofFacts }: ThreeKeyFactsProps) => {
               >
                 {fact.keyFact}
               </h1>
-              <p className={"text-center text-2xl"}>{fact.value}</p>
+              <div>
+                <p className={"text-center text-2xl"}>{fact.value}</p>
+              </div>
             </div>
           ))}
         </div>

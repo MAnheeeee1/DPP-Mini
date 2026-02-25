@@ -15,7 +15,7 @@ const ProductImage = ({ imageUrl, height, width, position }: ImageProps) => {
   } else if (position == "right") {
     divClassName = "flex justify-end items-center";
   }
-  divClassName += " relative py-6";
+  divClassName += " relative py-10";
   return (
     <div className={divClassName}>
       <Image
@@ -24,7 +24,7 @@ const ProductImage = ({ imageUrl, height, width, position }: ImageProps) => {
         height={height}
         width={width}
       />
-      <p className="absolute bottom-8 right-18">Art nr 89349018</p>
+      <p className="absolute bottom-12 right-18">Art nr 89349018</p>
     </div>
   );
 };

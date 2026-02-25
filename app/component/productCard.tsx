@@ -24,7 +24,7 @@ function ProductCard({
       />
       <div className="text-center">
         <h4>{productTitel}</h4>
-        <h6 className="line-through text-">
+        <h6 className="line-through opacity-67 text-sm text-">
           {productPrevPrice && productPrevPrice + " SEK"}
         </h6>
         <h4>{productCurrentPrice} SEK</h4>
