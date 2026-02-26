@@ -12,7 +12,7 @@ interface Fact {
 }
 const ThreeKeyFacts = ({ listofFacts }: ThreeKeyFactsProps) => {
   return (
-    <div className="p-2 max-w-sm">
+    <div className="p-2 ">
       <div
         className={
           "flex justify-center p-6  items-center bg-[#E2E2E2] rounded-2xl"
