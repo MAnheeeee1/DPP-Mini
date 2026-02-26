@@ -17,7 +17,7 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-[#FAF9F6]">
       <div>
         <DppLayout>
-          <Header size={"7xl"} title={"Cleo"} />
+          <Header size={"7xl"} title={"Saga"} />
           <hr />
           <ProductImage
             imageUrl={"/jacka.png"}
